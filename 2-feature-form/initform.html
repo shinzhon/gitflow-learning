@@ -1,0 +1,44 @@
+<!-- Copy to Init Form -->
+<div id="grocery-list-body" class="container">
+    <h1>Grocery list</h1>
+
+    <!-- Version -->
+    
+    <!-- Input form -->
+    <form class="mb-3">
+        <div class="form-row">
+          <!-- Input name -->
+          <div class="form-group col-md-6">
+            <label for="">Grocery name</label>
+            <input type="text" id="input-add" class="form-control" placeholder="Insert grocery name" aria-describedby="helpId">
+          </div>
+
+          <!-- input amount-->
+          <div class="form-group col-md-2">
+              <label for="amount">Amount</label>
+              <input id="amount" type="number" class="input-group-append" step="1" min="0">    
+          </div>
+
+          <!-- input unit -->
+          <div class="form-group col-md-2">
+            <label for="unit">Unit</label>
+            <select class="custom-select" id="unit">
+                <option selected>Select one</option>
+                <option value="pcs">Pieces</option>
+                <option value="kg">Kilogramm</option>
+                <option value="g">Gramm</option>
+                <option value="l">Litre</option>
+                <option value="dl">Decilitre</option>
+                <option value="ml">Millilitre</option>
+              </select>
+          </div>
+        </div>
+        <button type="button" id="btn-add" class="btn btn-outline-secondary">Add</button>
+      </form>
+
+    <!--   Grocery List    -->
+    
+</div>
+
+
+
