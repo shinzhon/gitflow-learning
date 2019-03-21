@@ -53,15 +53,15 @@ Branch Develop angewählt ```git checkout develop```
 8. Branch Develop anwählen ```git checkout develop```
 9. Branch release/v1.0.0 in den Branch mergen ```git merge release/v1.0.0 --no-ff```
 
-### Bugfix [bugfix/unit-selection]
+### Bugfix [hotfix/unit-selection]
 Branch Master angewählt ```git checkout master```
 
-1. Branch hotfix/unit-selection-issue erstellen ```git checkout -b hotfix/unit-selection-issue```
+1. Branch hotfix/unit-selection-issue erstellen ```git checkout -b hotfix/unit-selection```
 2. Inhalt aus bugfix.html in das index.html kopieren
 3. Testen ob die Änderung funktioniert
 4. Änderungen committen ```git commit hotfix/unit-selection-issue -m "Subject"```
 5. Branch Master anwählen ```git checkout master```
-6. Branch hotfix/unit-selection-issue in den Branch mergen ```git merge hotfix/unit-selection-issue --no-ff```
+6. Branch hotfix/unit-selection-issue in den Branch mergen ```git merge hotfix/unit-selection --no-ff```
 7. Version 1.0.1 taggen ```git tag -a v1.0.1 -m "Fixed unit selection"```
 8. Branch Develop anwählen ```git checkout develop```
-9. Branch hotfix/unit-selection-issue in den Branch mergen ```git merge hotfix/unit-selection-issue --no-ff```
+9. Branch hotfix/unit-selection-issue in den Branch mergen ```git merge hotfix/unit-selection --no-ff```
